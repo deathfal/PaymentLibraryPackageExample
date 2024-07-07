@@ -1,0 +1,36 @@
+{
+    "packages": [
+        {
+            "name": "gap/payment-library",
+            "version": "dev-CreatingPackage",
+            "version_normalized": "dev-CreatingPackage",
+            "dist": {
+                "type": "path",
+                "url": "../design-pattern/payment-library",
+                "reference": "7f2909f9e8b5488df77cd6d78ac28f083d52dc30"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Gap\\PaymentLibrary\\": "src/"
+                }
+            },
+            "license": [
+                "ESGI"
+            ],
+            "authors": [
+                {
+                    "name": "adam596",
+                    "email": "adamgarchi@gmail.com"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            },
+            "install-path": "../gap/payment-library"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

@@ -1,0 +1,24 @@
+{
+    "name": "gap/test-dp-payment",
+    "require": {
+      "gap/payment-library": "*"
+    },
+    "repositories": [
+      {
+        "type": "path",
+        "url": "../design-pattern/payment-library"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "MyTestProject\\": "src/"
+      }
+    },
+    "minimum-stability": "dev",
+    "authors": [
+      {
+        "name": "GAP",
+        "email": "gap@gmail.com"
+      }
+    ]
+  }

@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7f531c8b538b0a696a626f9707444e11",
+    "packages": [
+        {
+            "name": "gap/payment-library",
+            "version": "dev-CreatingPackage",
+            "dist": {
+                "type": "path",
+                "url": "../design-pattern/payment-library",
+                "reference": "7f2909f9e8b5488df77cd6d78ac28f083d52dc30"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gap\\PaymentLibrary\\": "src/"
+                }
+            },
+            "license": [
+                "ESGI"
+            ],
+            "authors": [
+                {
+                    "name": "adam596",
+                    "email": "adamgarchi@gmail.com"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
